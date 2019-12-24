@@ -1,0 +1,1 @@
+docker run --name beat --rm -v ~/log/metrics_collection.log:/var/log/example.log  beat
