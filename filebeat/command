@@ -1,1 +1,1 @@
-docker run --name beat --rm -v ~/log/metrics_collection.log:/var/log/example.log  beat
+docker run --name filebeat --rm -v ~/log/metrics_collection.log:/var/log/example.log  filebeat
